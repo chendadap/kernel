@@ -136,6 +136,7 @@ dtb-$(CONFIG_ARCH_QCOM)	+= qcs9075-addons-iq-9075-evk-mezz.dtb
 dtb-$(CONFIG_ARCH_QCOM)	+= qcs9075-addons-iq-9075-evk.dtb
 dtb-$(CONFIG_ARCH_QCOM)	+= qcs9075-addons-ride.dtb
 dtb-$(CONFIG_ARCH_QCOM)	+= qcs9075-addons-ride-r3.dtb
+dtb-$(CONFIG_ARCH_QCOM)	+= qcs9075-airbox-dragon-100.dtb
 dtb-$(CONFIG_ARCH_QCOM)	+= qcs9075-iq-9075-evk.dtb
 dtb-$(CONFIG_ARCH_QCOM)	+= qcs9075-ride.dtb
 dtb-$(CONFIG_ARCH_QCOM)	+= qcs9075-ride-r3.dtb
