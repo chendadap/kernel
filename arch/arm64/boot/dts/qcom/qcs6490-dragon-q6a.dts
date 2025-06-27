@@ -400,7 +400,7 @@
 };
 
 &pmk8350_rtc {
-	status = "okay";
+	status = "disabled";
 };
 
 &pmk8350_vadc {
