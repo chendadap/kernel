@@ -635,6 +635,18 @@
 	status = "okay";
 };
 
+&i2c10 {
+	status = "okay";
+	#address-cells = <1>;
+	#size-cells = <0>;
+
+	/* RTC RS4C411ZAE */
+	rtc_m41t11: m41t11@68 {
+		compatible = "st,m41t11";
+		reg = <0x68>;
+	};
+};
+
 &ufs_mem_hc {
 	reset-gpios = <&tlmm 175 GPIO_ACTIVE_LOW>;
 	vcc-supply = <&vreg_l7b_2p952>;
